@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-// קומפוננטה להצגת הנתונים בתצוגה טקסטואלית (3 עיגולים עם ערכים)
 function TextDisplay({ alt, his, adi }) {
   const circleStyle = {
     width: '80px', height: '80px',
@@ -30,7 +29,6 @@ function TextDisplay({ alt, his, adi }) {
   );
 }
 
-// קומפוננטה להצגת הנתונים בתצוגה ויזואלית
 function VisualDisplay({ alt, his, adi }) {
   const canvasRef = useRef(null);
 
